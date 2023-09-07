@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { footerLinks } from '../constants';
+import { footerLinks } from '../app/constants';
 import Link from 'next/link';
 
 type ColumnProps = {

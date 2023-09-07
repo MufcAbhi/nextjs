@@ -1,6 +1,6 @@
 import { ProjectInterface } from "@/common.types";
 import { fetchAllProjects } from "@/lib/actions"
-import ProjectCard from "./components/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 
 type ProjectSearch = {
   projectSearch: {

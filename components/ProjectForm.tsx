@@ -4,7 +4,7 @@ import { SessionInterface } from '@/common.types';
 import Image from 'next/image';
 import React, { ChangeEvent, useState } from 'react';
 import FormField from './FormField';
-import { categoryFilters } from '../constants';
+import { categoryFilters } from '../app/constants';
 import CustomMenu from './CustomMenu';
 import Button from './Button';
 import { createNewProject, fetchToken } from '@/lib/actions';

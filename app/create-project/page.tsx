@@ -1,6 +1,6 @@
 import React from 'react'
-import ProjectForm from '../components/ProjectForm';
-import Modal from '../components/Modal';
+import ProjectForm from '../../components/ProjectForm';
+import Modal from '../../components/Modal';
 import { getCurrentUser } from '@/lib/session';
 import { redirect } from 'next/navigation';
 
